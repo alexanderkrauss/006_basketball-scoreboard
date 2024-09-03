@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'digital';
+  src: url(./fonts/digital-7.ttf);
+}
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+;
+}
+
+.container {
+  width: 800px;
+  height: 440px;
+  background-color: #131313;
+  margin: 75px auto;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px #4b4b4b;
+  border: 1px solid #252525;
+}
+
+.home, .guest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #eee;
+}
+
+.counter {
+  width: 160px;
+  height: 140px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+#count-home {
+  font-family: 'digital';
+  color: #F94F6D;
+  font-size: 110px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#count-guest {
+  font-family: 'digital';
+  color: #F94F6D;
+  font-size: 110px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-add {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.add {
+  color: #eee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add:hover {
+  border: 2px solid #eee;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container-btn {
+display: flex;
+justify-content: center;
+}
+
+.btn {
+ background-color: #eee;
+ font-family: inherit;
+ font-size: 20px;
+ font-weight: bold;
+ padding: 8px 20px;  
+ border-radius: 4px; 
+}
+
+.btn:hover {
+  border: 1px solid #eee;
+  color: #eee;
+  background-color: #131313;
+  cursor: pointer;
+}
+
+
+  
